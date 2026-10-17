@@ -68,8 +68,9 @@ section{padding:72px 0}.tint{background:var(--tint)}
 .card p{margin:6px 0 0;color:var(--muted);font-size:.95rem}
 .about{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
 .about h2{font-size:clamp(2rem,5vw,3rem);margin-bottom:18px}.about p{color:var(--muted);margin:0 0 16px}
-.pics{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.pics .photo{border-radius:18px;aspect-ratio:1}.pics .photo:nth-child(2){transform:translateY(24px)}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pics .photo{border-radius:18px;aspect-ratio:1;box-shadow:var(--shadow);transition:transform .2s ease}
+.pics .photo:hover{transform:translateY(-3px)}
 
 /* Banner */
 .banner-wrap{position:relative;min-height:360px;display:grid;place-items:center;text-align:center;color:#FFF8EE;overflow:hidden}
